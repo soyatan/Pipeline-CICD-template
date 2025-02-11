@@ -24,7 +24,7 @@ export default function TabTwoScreen() {
         <ThemedText type="title">Explore</ThemedText>
       </ThemedView>
       <ThemedText>
-        This app includes examaaapaale code to help you get started.
+        This app includes examaaapaaler code to help you get started.
       </ThemedssText>
       <Collapsible title="File-based routing">
         <ThemedText>
