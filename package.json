@@ -63,5 +63,12 @@
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "prettier src --write",
+      "eslint src --fix",
+      "git add"
+    ]
+  },
   "private": true
 }
